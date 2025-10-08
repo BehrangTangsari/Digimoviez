@@ -1,0 +1,43 @@
+@import './roots.css';
+
+@font-face {
+    font-family: 'iransans';
+    src: url('../Fonts/IranSans/IRANSans.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'iransans';
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+input {
+    outline: none;
+}
+
+body {
+    background-color: var(--dark-color);
+    font-size: 16px;
+}
+
+a {
+    color: var(--light-color);
+}
+
+i {
+    /* color: var(--light-color); */
+    user-select: none;
+}
